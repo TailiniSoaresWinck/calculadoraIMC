@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    background-color: #005A5B;
+    font: normal 15px arial;
+    margin:40px;
+}
+header{
+    text-align: center;
+    color:white;
+    padding: 8px;
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding:15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.377);
+    text-align: center;
+}
+#nome{
+    border-radius:8px;
+    border:1;
+    padding:8px;
+    margin-top:10px;
+}
+#peso{
+    border-radius:8px;
+    border:1;
+    padding:8px;
+    margin-top:10px;
+}
+#altura{
+    border-radius:8px;
+    border:1;
+    padding:8px;
+    margin-top:10px;
+}
+#botao{
+    padding:8px;
+    margin-top:10px;
+}
+table, th, td{
+    border:1px #000 solid;
+    border-collapse: collapse;
+    margin-top: 10px;
+    width: 400px;
+}
+thead{
+    background-color: #32A89C;
+}
