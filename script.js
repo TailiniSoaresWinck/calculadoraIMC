@@ -49,4 +49,11 @@ document.querySelector('#botao').onclick=function(){
     tr.append(th4)
     tr.append(th5)
     tbody.append(tr)
+
+    
+}
+document.querySelector('#bt-l').onclick=function(){
+    let tbody=document.querySelector('tbody')
+    tbody.innerHTML=""
+    num=0
 }

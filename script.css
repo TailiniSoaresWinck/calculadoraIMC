@@ -40,6 +40,14 @@ section{
     margin-top:10px;
 }
 #botao{
+    border-radius:8px;
+    border:1;
+    padding:8px;
+    margin-top:10px;
+}
+#bt-l{
+    border-radius:8px;
+    border:1;
     padding:8px;
     margin-top:10px;
 }
