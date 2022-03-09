@@ -1,12 +1,13 @@
 let num=0
 document.querySelector('#botao').onclick=function(){
+    if(peso.value.length>0 && altura.value.length>0 && nome.value.length>0){
     num=num+1
     let nome=document.getElementById('nome').value
     let peso=document.getElementById('peso').value
     peso=parseFloat(peso)
     let altura=document.getElementById('altura').value
     altura=parseFloat(altura)
-
+   
     let tbody=document.querySelector('tbody')
     let tr=document.createElement('tr')
 
@@ -42,15 +43,13 @@ document.querySelector('#botao').onclick=function(){
     else{
         th5.append(`${imc} Mórbida`)
     }
-
     tr.append(th)
     tr.append(th2)
     tr.append(th3)
     tr.append(th4)
     tr.append(th5)
     tbody.append(tr)
-
-    
+}
 }
 document.querySelector('#bt-l').onclick=function(){
     let tbody=document.querySelector('tbody')
